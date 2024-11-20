@@ -1,5 +1,5 @@
 {
-  "name": "qwintry/ups-api",
+  "name": "qwintry/php-ups-api",
   "type": "library",
   "description": "PHP UPS API",
   "keywords": [
