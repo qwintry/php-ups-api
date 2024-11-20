@@ -67,7 +67,5 @@
         "tests/Ups/Tests/_includes"
       ]
     }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
