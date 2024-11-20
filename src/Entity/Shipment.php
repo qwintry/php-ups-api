@@ -189,7 +189,7 @@ class Shipment
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description ?? '';
     }
 
     /**

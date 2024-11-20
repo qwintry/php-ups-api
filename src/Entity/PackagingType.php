@@ -94,7 +94,7 @@ class PackagingType implements NodeInterface
 
         $node = $document->createElement('PackagingType');
         $node->appendChild($document->createElement('Code', $this->getCode()));
-        $node->appendChild($document->createElement('Description', $this->getDescription()));
+        $node->appendChild($document->createElement('Description', $this->getDescription() ?? ''));
 
         return $node;
     }
@@ -124,7 +124,7 @@ class PackagingType implements NodeInterface
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description ?? '';
     }
 
     /**

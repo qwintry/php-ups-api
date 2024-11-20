@@ -178,7 +178,7 @@ class ShipTo implements NodeInterface
      */
     public function getAttentionName()
     {
-        return $this->attentionName;
+        return $this->attentionName ?? '';
     }
 
     /**
@@ -218,7 +218,7 @@ class ShipTo implements NodeInterface
      */
     public function getCompanyName()
     {
-        return $this->companyName;
+        return $this->companyName ?? '';
     }
 
     /**

@@ -207,7 +207,7 @@ class Package implements NodeInterface
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description ?? '';
     }
 
     /**
