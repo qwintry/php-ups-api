@@ -50,11 +50,6 @@
   "suggest": {
     "ext-soap": "Required if you need the Tradeability API of UPS"
   },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "2.0-dev"
-    }
-  },
   "autoload": {
     "psr-4": {
       "Ups\\": "src"
