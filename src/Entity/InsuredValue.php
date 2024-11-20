@@ -66,7 +66,6 @@ class InsuredValue implements NodeInterface
      */
     public function setCurrencyCode($var)
     {
-        $this->CurrencyCode = $var;
         $this->currencyCode = $var;
     }
 
@@ -83,7 +82,6 @@ class InsuredValue implements NodeInterface
      */
     public function setMonetaryValue($var)
     {
-        $this->MonetaryValue = $var;
         $this->monetaryValue = $var;
     }
 }

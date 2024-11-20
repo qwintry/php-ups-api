@@ -84,6 +84,7 @@ class PackagingType implements NodeInterface
      * @param null|DOMDocument $document
      *
      * @return DOMElement
+     * @throws \DOMException
      */
     public function toNode(DOMDocument $document = null)
     {
@@ -113,7 +114,6 @@ class PackagingType implements NodeInterface
      */
     public function setCode($code)
     {
-        $this->Code = $code;
         $this->code = $code;
 
         return $this;

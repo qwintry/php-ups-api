@@ -1,5 +1,5 @@
 {
-  "name": "gabrielbull/ups-api",
+  "name": "qwintry/ups-api",
   "type": "library",
   "description": "PHP UPS API",
   "keywords": [
@@ -38,7 +38,7 @@
     }
   ],
   "require": {
-    "php": "^7.3 || ^8.0",
+    "php": "^8.2",
     "ext-dom": "*",
     "ext-simplexml": "*",
     "guzzlehttp/guzzle": "^6.0 || ^7.0",

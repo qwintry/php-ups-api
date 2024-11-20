@@ -63,7 +63,6 @@ trait ServiceSummaryTrait
      */
     public function setService(Service $service)
     {
-        $this->Service = $service;
         $this->service = $service;
     }
 
@@ -80,7 +79,6 @@ trait ServiceSummaryTrait
      */
     public function setGuaranteed(Guaranteed $guaranteed)
     {
-        $this->Guaranteed = $guaranteed;
         $this->guaranteed = $guaranteed;
     }
 
@@ -97,7 +95,6 @@ trait ServiceSummaryTrait
      */
     public function setSaturdayDelivery($saturdayDelivery)
     {
-        $this->SaturdayDelivery = $saturdayDelivery;
         $this->saturdayDelivery = $saturdayDelivery;
     }
 
@@ -114,7 +111,6 @@ trait ServiceSummaryTrait
      */
     public function setSaturdayDeliveryDisclaimer($saturdayDeliveryDisclaimer)
     {
-        $this->SaturdayDeliveryDisclaimer = $saturdayDeliveryDisclaimer;
         $this->saturdayDeliveryDisclaimer = $saturdayDeliveryDisclaimer;
     }
 }

@@ -168,7 +168,6 @@ class ShipTo implements NodeInterface
      */
     public function setAddress(Address $address)
     {
-        $this->Address = $address;
         $this->address = $address;
 
         return $this;
@@ -189,7 +188,6 @@ class ShipTo implements NodeInterface
      */
     public function setAttentionName($attentionName)
     {
-        $this->AttentionName = $attentionName;
         $this->attentionName = $attentionName;
 
         return $this;
@@ -210,7 +208,6 @@ class ShipTo implements NodeInterface
      */
     public function setBookmark($bookmark)
     {
-        $this->Bookmark = $bookmark;
         $this->bookmark = $bookmark;
 
         return $this;
@@ -231,7 +228,6 @@ class ShipTo implements NodeInterface
      */
     public function setCompanyName($companyName)
     {
-        $this->CompanyName = $companyName;
         $this->companyName = $companyName;
 
         return $this;
@@ -252,7 +248,6 @@ class ShipTo implements NodeInterface
      */
     public function setEmailAddress($emailAddress)
     {
-        $this->EMailAddress = $emailAddress;
         $this->emailAddress = $emailAddress;
 
         return $this;
@@ -273,7 +268,6 @@ class ShipTo implements NodeInterface
      */
     public function setFaxNumber($faxNumber)
     {
-        $this->FaxNumber = $faxNumber;
         $this->faxNumber = $faxNumber;
 
         return $this;
@@ -294,7 +288,6 @@ class ShipTo implements NodeInterface
      */
     public function setLocationId($locationId)
     {
-        $this->LocationID = $locationId;
         $this->locationId = $locationId;
 
         return $this;
@@ -315,7 +308,6 @@ class ShipTo implements NodeInterface
      */
     public function setPhoneNumber($phoneNumber)
     {
-        $this->PhoneNumber = $phoneNumber;
         $this->phoneNumber = $phoneNumber;
 
         return $this;
@@ -336,7 +328,6 @@ class ShipTo implements NodeInterface
      */
     public function setReceivingAddressName($receivingAddressName)
     {
-        $this->ReceivingAddressName = $receivingAddressName;
         $this->receivingAddressName = $receivingAddressName;
 
         return $this;
@@ -357,7 +348,6 @@ class ShipTo implements NodeInterface
      */
     public function setShipperAssignedIdentificationNumber($shipperAssignedIdentificationNumber)
     {
-        $this->ShipperAssignedIdentificationNumber = $shipperAssignedIdentificationNumber;
         $this->shipperAssignedIdentificationNumber = $shipperAssignedIdentificationNumber;
 
         return $this;
@@ -378,7 +368,6 @@ class ShipTo implements NodeInterface
      */
     public function setTaxIdentificationNumber($taxIdentificationNumber)
     {
-        $this->TaxIdentificationNumber = $taxIdentificationNumber;
         $this->taxIdentificationNumber = $taxIdentificationNumber;
 
         return $this;

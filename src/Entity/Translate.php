@@ -109,7 +109,6 @@ class Translate implements NodeInterface
      */
     public function setLanguageCode($languageCode)
     {
-        $this->LanguageCode = $languageCode;
         $this->languageCode = $languageCode;
     }
 
@@ -126,7 +125,6 @@ class Translate implements NodeInterface
      */
     public function setDialectCode($dialectCode)
     {
-        $this->DialectCode = $dialectCode;
         $this->dialectCode = $dialectCode;
     }
 
@@ -143,7 +141,6 @@ class Translate implements NodeInterface
      */
     public function setCode($code)
     {
-        $this->Code = $code;
         $this->code = $code;
     }
 

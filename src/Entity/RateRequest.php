@@ -45,7 +45,6 @@ class RateRequest
      */
     public function setPickupType(PickupType $pickupType)
     {
-        $this->PickupType = $pickupType;
         $this->pickupType = $pickupType;
 
         return $this;
@@ -86,7 +85,6 @@ class RateRequest
      */
     public function setShipment(Shipment $shipment)
     {
-        $this->Shipment = $shipment;
         $this->shipment = $shipment;
 
         return $this;

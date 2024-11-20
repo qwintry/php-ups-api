@@ -233,6 +233,6 @@ class Request implements RequestInterface, LoggerAwareInterface
             return mb_convert_encoding($body, 'UTF-8', $encoding);
         }
 
-        return utf8_encode($body);
+        return mb_convert_encoding($body, 'UTF-8', 'ISO-8859-1');
     }
 }

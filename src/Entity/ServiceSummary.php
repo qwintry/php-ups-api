@@ -43,7 +43,6 @@ class ServiceSummary
      */
     public function setEstimatedArrival(EstimatedArrival $estimatedArrival)
     {
-        $this->EstimatedArrival = $estimatedArrival;
         $this->estimatedArrival = $estimatedArrival;
     }
 }

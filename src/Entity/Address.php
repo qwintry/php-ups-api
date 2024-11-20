@@ -310,7 +310,6 @@ class Address implements NodeInterface
      */
     public function setAddressExtendedInformation($addressExtendedInformation)
     {
-        $this->AddressExtendedInformation = $addressExtendedInformation;
         $this->addressExtendedInformation = $addressExtendedInformation;
 
         return $this;
@@ -331,7 +330,6 @@ class Address implements NodeInterface
      */
     public function setAddressLine1($addressLine1)
     {
-        $this->AddressLine1 = $addressLine1;
         $this->addressLine1 = $addressLine1;
 
         return $this;
@@ -352,7 +350,6 @@ class Address implements NodeInterface
      */
     public function setAddressLine2($addressLine2)
     {
-        $this->AddressLine2 = $addressLine2;
         $this->addressLine2 = $addressLine2;
 
         return $this;
@@ -373,7 +370,6 @@ class Address implements NodeInterface
      */
     public function setAddressLine3($addressLine3)
     {
-        $this->AddressLine3 = $addressLine3;
         $this->addressLine3 = $addressLine3;
 
         return $this;
@@ -394,7 +390,6 @@ class Address implements NodeInterface
      */
     public function setAttentionName($attentionName)
     {
-        $this->AttentionName = $attentionName;
         $this->attentionName = $attentionName;
 
         return $this;
@@ -415,7 +410,6 @@ class Address implements NodeInterface
      */
     public function setBuildingName($buildingName)
     {
-        $this->BuildingName = $buildingName;
         $this->buildingName = $buildingName;
 
         return $this;
@@ -436,7 +430,6 @@ class Address implements NodeInterface
      */
     public function setCity($city)
     {
-        $this->City = $city;
         $this->city = $city;
 
         return $this;
@@ -457,7 +450,6 @@ class Address implements NodeInterface
      */
     public function setConsigneeName($consigneeName)
     {
-        $this->ConsigneeName = $consigneeName;
         $this->consigneeName = $consigneeName;
 
         return $this;
@@ -478,7 +470,6 @@ class Address implements NodeInterface
      */
     public function setCountryCode($countryCode)
     {
-        $this->CountryCode = $countryCode;
         $this->countryCode = $countryCode;
 
         return $this;
@@ -499,7 +490,6 @@ class Address implements NodeInterface
      */
     public function setPoliticalDivision1($politicalDivision1)
     {
-        $this->PoliticalDivision1 = $politicalDivision1;
         $this->politicalDivision1 = $politicalDivision1;
 
         return $this;
@@ -520,7 +510,6 @@ class Address implements NodeInterface
      */
     public function setPoliticalDivision2($politicalDivision2)
     {
-        $this->PoliticalDivision2 = $politicalDivision2;
         $this->politicalDivision2 = $politicalDivision2;
 
         return $this;
@@ -541,7 +530,6 @@ class Address implements NodeInterface
      */
     public function setPoliticalDivision3($politicalDivision3)
     {
-        $this->PoliticalDivision3 = $politicalDivision3;
         $this->politicalDivision3 = $politicalDivision3;
 
         return $this;
@@ -562,7 +550,6 @@ class Address implements NodeInterface
      */
     public function setPostalCode($postalCode)
     {
-        $this->PostalCode = $postalCode;
         $this->postalCode = $postalCode;
 
         return $this;
@@ -583,7 +570,6 @@ class Address implements NodeInterface
      */
     public function setPostcodeExtendedLow($postcodeExtendedLow)
     {
-        $this->PostcodeextendedLow = $postcodeExtendedLow;
         $this->postcodeExtendedLow = $postcodeExtendedLow;
 
         return $this;
@@ -604,7 +590,6 @@ class Address implements NodeInterface
      */
     public function setPostcodePrimaryHigh($postcodePrimaryHigh)
     {
-        $this->PostcodePrimaryHigh = $postcodePrimaryHigh;
         $this->postcodePrimaryHigh = $postcodePrimaryHigh;
 
         return $this;
@@ -625,7 +610,6 @@ class Address implements NodeInterface
      */
     public function setPostcodePrimaryLow($postcodePrimaryLow)
     {
-        $this->PostcodePrimaryLow = $postcodePrimaryLow;
         $this->postcodePrimaryLow = $postcodePrimaryLow;
 
         return $this;
@@ -646,7 +630,6 @@ class Address implements NodeInterface
      */
     public function setResidentialAddressIndicator($residentialAddressIndicator)
     {
-        $this->ResidentialAddressIndicator = $residentialAddressIndicator;
         $this->residentialAddressIndicator = $residentialAddressIndicator;
 
         return $this;
@@ -667,7 +650,6 @@ class Address implements NodeInterface
      */
     public function setStateProvinceCode($stateProvinceCode)
     {
-        $this->StateProvinceCode = $stateProvinceCode;
         $this->stateProvinceCode = $stateProvinceCode;
 
         return $this;
@@ -688,7 +670,6 @@ class Address implements NodeInterface
      */
     public function setStreetName($streetName)
     {
-        $this->StreetName = $streetName;
         $this->streetName = $streetName;
 
         return $this;
@@ -709,7 +690,6 @@ class Address implements NodeInterface
      */
     public function setStreetNumberLow($streetNumberLow)
     {
-        $this->StreetNumberLow = $streetNumberLow;
         $this->streetNumberLow = $streetNumberLow;
 
         return $this;
@@ -730,7 +710,6 @@ class Address implements NodeInterface
      */
     public function setStreetPrefix($streetPrefix)
     {
-        $this->StreetPrefix = $streetPrefix;
         $this->streetPrefix = $streetPrefix;
 
         return $this;
@@ -751,7 +730,6 @@ class Address implements NodeInterface
      */
     public function setStreetSuffix($streetSuffix)
     {
-        $this->StreetSuffix = $streetSuffix;
         $this->streetSuffix = $streetSuffix;
 
         return $this;
@@ -772,7 +750,6 @@ class Address implements NodeInterface
      */
     public function setStreetType($streetType)
     {
-        $this->StreetType = $streetType;
         $this->streetType = $streetType;
 
         return $this;

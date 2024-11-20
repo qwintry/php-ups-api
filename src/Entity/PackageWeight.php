@@ -67,7 +67,6 @@ class PackageWeight implements NodeInterface
      */
     public function setUnitOfMeasurement(UnitOfMeasurement $unitOfMeasurement)
     {
-        $this->UnitOfMeasurement = $unitOfMeasurement;
         $this->unitOfMeasurement = $unitOfMeasurement;
 
         return $this;
@@ -88,7 +87,6 @@ class PackageWeight implements NodeInterface
      */
     public function setWeight($weight)
     {
-        $this->Weight = $weight;
         $this->weight = $weight;
 
         return $this;

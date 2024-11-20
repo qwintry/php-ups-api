@@ -90,16 +90,11 @@ class Service implements NodeInterface
         '13' => 'UPS Next Day Air Saver',
         '14' => 'UPS Next Day Air Early',
         '54' => 'UPS Worldwide Express Plus',
-        '59' => 'UPS 2nd Day Air A.M.',
-        '65' => 'UPS Worldwide Saver',
-        '70' => 'UPS Access Point Economy',
         '71' => 'UPS Worldwide Express Freight Midday',
-        '74' => 'UPS Express 12:00',
         '82' => 'UPS Today Standard',
         '83' => 'UPS Today Dedicated Courrier',
         '85' => 'UPS Today Express',
         '86' => 'UPS Today Express Saver',
-        '96' => 'UPS Worldwide Express Freight',
         '59' => 'UPS Second Day Air AM',
         '65' => 'UPS Saver',
         '70' => 'UPS Access Point Economy',
@@ -205,7 +200,6 @@ class Service implements NodeInterface
      */
     public function setDescription($description)
     {
-        $this->Description = $description;
         $this->description = $description;
 
         return $this;

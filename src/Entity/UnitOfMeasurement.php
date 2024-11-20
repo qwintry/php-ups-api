@@ -125,7 +125,6 @@ class UnitOfMeasurement implements NodeInterface
      */
     public function setCode($code)
     {
-        $this->Code = $code;
         $this->code = $code;
 
         return $this;
@@ -146,7 +145,6 @@ class UnitOfMeasurement implements NodeInterface
      */
     public function setDescription($description)
     {
-        $this->Description = $description;
         $this->description = $description;
 
         return $this;
